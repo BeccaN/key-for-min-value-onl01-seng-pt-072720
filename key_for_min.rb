@@ -9,8 +9,9 @@ def key_for_min_value(name_hash)
   i = nil  
   nums_list = []
   name_hash.each do |key, num|
-    if num > i 
-      i += 1  
+    if i == nil
+      i = num 
+    elsif 
     elsif num == i
       #add to a list and then compare items in list?
     end 
